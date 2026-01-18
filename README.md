@@ -10,6 +10,13 @@ PipeWire and WirePlumber configuration for the RODE RODECaster Pro II on Linux.
   - **RODECaster Pro II - USB 1 Chat** - Dedicated channel for Discord/Skype/communication apps
   - **RODECaster Pro II - Multitrack** - 16-channel input for individual fader recording
 
+## Requirements
+
+- **PipeWire** (audio server)
+- **WirePlumber 0.5.x+** (session manager)
+
+Most modern Linux distributions (Fedora 39+, Ubuntu 24.04+, Arch, etc.) ship with compatible versions. Check your version with `wireplumber --version`.
+
 ## Installation
 
 ### Arch Linux / CachyOS / Manjaro (AUR)
