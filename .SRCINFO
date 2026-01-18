@@ -1,0 +1,17 @@
+pkgbase = rodecaster-pro2-pipewire
+	pkgdesc = PipeWire/WirePlumber configuration for RODE RODECaster Pro II with proper channel names
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/jmilnz/rodecaster-pro2-pipewire
+	arch = any
+	license = MIT
+	depends = pipewire
+	depends = wireplumber
+	source = 50-rodecaster-pro2.conf
+	source = 51-rodecaster-pro2-rename.conf
+	source = LICENSE
+	sha256sums = b156e671a98137920477f25aee0ee2ff861d8a16f7c74df30493fbcbb74c95f9
+	sha256sums = 3765a0880a7d9b05fcc0ffcc96fd5e778eda82810691aaafd2c699b890d474d6
+	sha256sums = cfa77bfffb8256eec180f2b9b478b8e40e5cebcf7e9ad18f834beb64c716d719
+
+pkgname = rodecaster-pro2-pipewire
